@@ -40,7 +40,16 @@ FFmpeg in this project was built with the following libraries:
 ## Usage
 
 ### Getting Started
-Include the dependency
+
+1. Add Jitpack to your project's build.gradle:
+```
+allprojects {
+	repositories {
+		...
+	      maven { url 'https://jitpack.io' }
+      }
+```
+2. Add Gradle dependency in your module's build.gradle:
 ```gradle
 dependencies {
     implementation 'com.codewithshembil:android-ffmpeg:1.0.0'
