@@ -1,5 +1,5 @@
 # FFmpeg-Android
-[Download](https://api.bintray.com/packages/codewithshembil/FFmpegAndroid/Android-FFmpeg/images/download.svg?version=1.0.0)
+[![Download](https://api.bintray.com/packages/codewithshembil/FFmpegAndroid/Android-FFmpeg/images/download.svg?version=1.0.0)]
 
 FFMpeg compiled for Android.
 Execute FFmpeg commands with ease in your Android project.
