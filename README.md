@@ -1,5 +1,5 @@
 # FFmpeg-Android
-[ ![Download](https://api.bintray.com/packages/codewithshembil/FFmpegAndroid/Android-FFmpeg/images/download.svg?version=1.0.0) ](https://bintray.com/codewithshembil/FFmpegAndroid/Android-FFmpeg/1.0.0/link)
+[ ![Download](https://api.bintray.com/packages/codewithshembil/FFmpegAndroid/Android-FFmpeg/images/download.svg?version=1.0.0) ](https://bintray.com/shembil/Android-FFmpeg/android-ffmpeg/_latestVersion)
 [ ![Buy us a beer](https://pay.bravobit.nl/assets/bravopay.svg) ](https://pay.bravobit.nl/?description=some%20beers)
 
 FFMpeg compiled for Android.
