@@ -96,5 +96,5 @@ ffTask.sendQuitSignal();
 _NOTE: This will result in `onFailure` being called instead of `onSuccess`._
 
 ## Licensing
-- [Library license](https://github.com/shembil/FFmpeg-Android/blob/master/LICENSE)
+- [Library license](https://github.com/shembil/Android-FFmpeg/blob/master/LICENSE)
 - [FFmpeg license](https://www.ffmpeg.org/legal.html)
