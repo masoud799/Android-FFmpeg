@@ -1,6 +1,5 @@
 # FFmpeg-Android
-[ ![Download](https://api.bintray.com/packages/shembil/Android-FFmpeg/android-ffmpeg/images/download.svg) ](https://bintray.com/shembil/Android-FFmpeg/android-ffmpeg/_latestVersion)
-[ ![Buy us a beer](https://pay.bravobit.nl/assets/bravopay.svg) ](https://pay.bravobit.nl/?description=some%20beers)
+[![Download](https://api.bintray.com/packages/codewithshembil/FFmpegAndroid/Android-FFmpeg/images/download.svg?version=1.0.0)]
 
 FFMpeg compiled for Android.
 Execute FFmpeg commands with ease in your Android project.
@@ -41,7 +40,16 @@ FFmpeg in this project was built with the following libraries:
 ## Usage
 
 ### Getting Started
-Include the dependency
+
+1. Add Jitpack to your project's build.gradle:
+```
+allprojects {
+	repositories {
+		...
+	      maven { url 'https://jitpack.io' }
+      }
+```
+2. Add Gradle dependency in your module's build.gradle:
 ```gradle
 dependencies {
     implementation 'com.codewithshembil:android-ffmpeg:1.0.0'
@@ -97,5 +105,5 @@ ffTask.sendQuitSignal();
 _NOTE: This will result in `onFailure` being called instead of `onSuccess`._
 
 ## Licensing
-- [Library license](https://github.com/shembil/FFmpeg-Android/blob/master/LICENSE)
+- [Library license](https://github.com/shembil/Android-FFmpeg/blob/master/LICENSE)
 - [FFmpeg license](https://www.ffmpeg.org/legal.html)
