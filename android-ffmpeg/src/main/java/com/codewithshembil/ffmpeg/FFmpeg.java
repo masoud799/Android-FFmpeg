@@ -58,8 +58,6 @@ public class FFmpeg implements FFbinaryInterface {
             String prefix = "arm/";
             if (cpuArch == CpuArch.x86) {
                 prefix = "x86/";
-            }else if (cpuArch == CpuArch.i686) {
-                prefix = "i686/";
             }
             Log.d("file does not exist, creating it...");
 
