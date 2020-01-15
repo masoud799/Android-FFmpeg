@@ -16,6 +16,7 @@ public class CpuArchHelper {
             case X86_64_CPU:
                 return CpuArch.x86;
             case ARM_64_CPU:
+                return CpuArch.ARM64_v8a;
             case ARM_V7_CPU:
                 return CpuArch.ARMv7;
             default:

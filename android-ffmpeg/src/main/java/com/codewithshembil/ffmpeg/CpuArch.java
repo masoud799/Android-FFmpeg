@@ -1,5 +1,5 @@
 package com.codewithshembil.ffmpeg;
 
 public enum CpuArch {
-    ARMv7, x86, NONE
+    ARMv7,ARM64_v8a, x86, NONE
 }
