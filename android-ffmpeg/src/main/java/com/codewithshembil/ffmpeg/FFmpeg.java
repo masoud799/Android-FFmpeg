@@ -2,9 +2,11 @@ package com.codewithshembil.ffmpeg;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.AsyncTask;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Array;
@@ -39,7 +41,7 @@ public class FFmpeg implements FFbinaryInterface {
     }
 
     @Override
-    public boolean isSupported() {
+    public boolean isSupported(String path) {
         // check if arch is supported
         CpuArch cpuArch = CpuArchHelper.getCpuArch();
         if (cpuArch == CpuArch.NONE) {
@@ -64,7 +66,10 @@ public class FFmpeg implements FFbinaryInterface {
             Log.d("file does not exist, creating it...");
 
             try {
-                InputStream inputStream = context.provide().getAssets().open(prefix + "ffmpeg");
+//                InputStream inputStream = context.provide().getAssets().open(prefix + "ffmpeg");
+                File file = new File(path);
+                FileInputStream fileInputStream = new FileInputStream(file);
+                InputStream inputStream = fileInputStream;
                 if (!FileUtils.inputStreamToFile(inputStream, ffmpeg)) {
                     return false;
                 }

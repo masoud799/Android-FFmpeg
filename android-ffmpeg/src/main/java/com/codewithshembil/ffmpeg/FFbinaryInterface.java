@@ -28,7 +28,7 @@ interface FFbinaryInterface {
      *
      * @return true if FF binary is supported on this device
      */
-    boolean isSupported();
+    boolean isSupported(String path);
 
     /**
      * Checks if a command with given task is currently running
